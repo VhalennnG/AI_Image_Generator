@@ -12,9 +12,7 @@ const Home = () => {
   const FetchData = async () => {
     setloading(true);
     try {
-      const { data } = await axios.get(
-        "https://ai-imagegen-oss3.onrender.com/api/v1/getdata"
-      );
+      const { data } = await axios.get("http://localhost:8000/api/v1/getdata");
       if (data?.sucess) {
         return setserver(data);
       }

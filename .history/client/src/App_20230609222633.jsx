@@ -1,5 +1,6 @@
 import React from "react";
 import { logo } from "./assets/index";
+import { Loader } from "./Components";
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 import { Home, CreatePost } from "./Pages";
 

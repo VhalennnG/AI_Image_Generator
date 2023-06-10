@@ -64,14 +64,11 @@ const CreatePost = () => {
     if (prompt && photoUrl && name) {
       try {
         setButtonloading(true);
-        const { data } = await axios.post(
-          "https://ai-imagegen-oss3.onrender.com/api/v1/post",
-          {
-            name,
-            prompt,
-            photoUrl,
-          }
-        );
+        const { data } = await axios.post("http://localhost:8000/api/v1/post", {
+          name,
+          prompt,
+          photoUrl,
+        });
         if (data.sucess) {
           setButtonloading(false);
           toast.success("Succefully shared to the community");

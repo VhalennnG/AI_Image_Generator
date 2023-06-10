@@ -27,12 +27,9 @@ const CreatePost = () => {
     try {
       setloading(true);
       setSingleImage(null);
-      const { data } = await axios.post(
-        "https://ai-imagegen-oss3.onrender.com/api/v1/image",
-        {
-          prompt,
-        }
-      );
+      const { data } = await axios.post("http://localhost:8000/api/v1/image", {
+        prompt,
+      });
       if (data?.sucess) {
         setimage(data);
         const randomNumber = Math.floor(
@@ -64,14 +61,11 @@ const CreatePost = () => {
     if (prompt && photoUrl && name) {
       try {
         setButtonloading(true);
-        const { data } = await axios.post(
-          "https://ai-imagegen-oss3.onrender.com/api/v1/post",
-          {
-            name,
-            prompt,
-            photoUrl,
-          }
-        );
+        const { data } = await axios.post("http://localhost:8000/api/v1/post", {
+          name,
+          prompt,
+          photoUrl,
+        });
         if (data.sucess) {
           setButtonloading(false);
           toast.success("Succefully shared to the community");
