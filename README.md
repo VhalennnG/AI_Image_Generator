@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://aiv14chat.vercel.app">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="100">
   </a>
 
   <h3 align="center">Chatbot AI</h3>
