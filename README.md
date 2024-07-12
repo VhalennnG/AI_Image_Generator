@@ -22,16 +22,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://aiv14chat.vercel.app">
+  <a href="https://celestialai.vercel.app">
     <img src="images/logo.png" alt="Logo" width="100">
   </a>
 
-  <h3 align="center">Chatbot AI</h3>
+  <h3 align="center">Celetial AI</h3>
 
   <p align="center">
     An awesome AI Image Generator!
     <br />
-    <a href="https://aiv14chat.vercel.app"><strong>Check the website »</strong></a>
+    <a href="https://celestialai.vercel.app"><strong>Check the website »</strong></a>
     <br />
     <br />
   </p>
@@ -78,11 +78,13 @@ I can be integrated into a wide range of platforms, including messaging apps, we
 
 ### Built With
 
+- [![React][React.js]][React-url]
 - [![Node][Node.js]][Vite-url]
 - [![Express][Express]][Express-url]
 - [![Vite][Vite.js]][Vite-url]
 - [![Vercel][Vercel]][Vercel-url]
 - [![OpenAI][OpenAI]][OpenAI-url]
+- [![MongoDB][MongoDB]][MongoDB-url]
 
 <!-- GETTING STARTED -->
 
@@ -104,7 +106,7 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://openai.com/](https://openai.com/)
+1. Get a free API Key at [https://openai.com](https://openai.com/)
 2. Clone the repo
    ```sh
    git clone https://github.com/VhalennnG/AI_Chat_Generator.git
@@ -136,13 +138,17 @@ Project Link: [AI Chat Generator](https://github.com/VhalennnG/AI_Chat_Generator
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [product-screenshot]: images/Screenshot.png
-[Vite.js]: https://img.shields.io/badge/vite.js-646CFF?style=for-the-badge&logo=vite&logoColor=white
-[Vite-url]: https://vitejs.dev/
-[Express]: https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white
-[Express-url]: https://expressjs.com/
 [Node.js]: https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [Node-url]: https://nodejs.org/en
+[Express]: https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white
+[Express-url]: https://expressjs.com/
+[Vite.js]: https://img.shields.io/badge/vite.js-646CFF?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev/
 [Vercel]: https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
 [Vercel-url]: https://vercel.com/
 [OpenAI]: https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white
 [OpenAI-url]: https://openai.com/
+[React.js]: https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white
+[React-url]: https://reactjs.org/
+[MongoDB]: https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
